@@ -26,6 +26,7 @@ void print_result(sc::CommResult result) {
 }
 
 void title() {
+    std::cout << "\n";
     std::cout << "########   ######   #######   #######   #######   ######  " << "\n";
     std::cout << "##     ## ##    ## ##     ## ##     ## ##     ## ##    ## " << "\n";
     std::cout << "##     ## ##              ##        ##        ## ##       " << "\n";
