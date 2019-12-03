@@ -4,9 +4,7 @@ Windowsでシリアル通信
 
 ## 環境
 * Visual Studio 2019 Community
-* ソフト側のCOM番号：8
-  RLogin側のCOm番号：9
-  で動作確認済み
+* ソフト側のCOM番号：8、RLogin側のCOM番号：9、で動作確認済み
 
 ## あれば便利なソフト
 * com0com
