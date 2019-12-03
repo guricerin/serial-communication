@@ -1,15 +1,17 @@
 # serial-communication
 
-Windows‚ÅƒVƒŠƒAƒ‹’ÊM
+Windowsã§ã‚·ãƒªã‚¢ãƒ«é€šä¿¡
 
-## ŠÂ‹«
+## ç’°å¢ƒ
 * Visual Studio 2019 Community
-* COM”Ô†8‚Æ9‚Å“®ìŠm”FÏ‚İ
+* ã‚½ãƒ•ãƒˆå´ã®COMç•ªå·ï¼š8
+  RLoginå´ã®COmç•ªå·ï¼š9
+  ã§å‹•ä½œç¢ºèªæ¸ˆã¿
 
-## ‚ ‚ê‚Î•Ö—˜‚Èƒ\ƒtƒg
+## ã‚ã‚Œã°ä¾¿åˆ©ãªã‚½ãƒ•ãƒˆ
 * com0com
 * Tera Term or RLogin
 
-## QlƒŠƒ“ƒN
-* [‰¼‘zƒVƒŠƒAƒ‹(COM) ƒ|[ƒgƒhƒ‰ƒCƒoucom0comv‚É‚æ‚éƒVƒŠƒAƒ‹’ÊM](https://qiita.com/yaju/items/e5818c99857883a59033)
-* [RLogin‚ÅƒVƒŠƒAƒ‹ƒRƒ“ƒ\[ƒ‹Ú‘±](https://itengine.seesaa.net/article/445608974.html)
+## å‚è€ƒãƒªãƒ³ã‚¯
+* [ä»®æƒ³ã‚·ãƒªã‚¢ãƒ«(COM) ãƒãƒ¼ãƒˆãƒ‰ãƒ©ã‚¤ãƒã€Œcom0comã€ã«ã‚ˆã‚‹ã‚·ãƒªã‚¢ãƒ«é€šä¿¡](https://qiita.com/yaju/items/e5818c99857883a59033)
+* [RLoginã§ã‚·ãƒªã‚¢ãƒ«ã‚³ãƒ³ã‚½ãƒ¼ãƒ«æ¥ç¶š](https://itengine.seesaa.net/article/445608974.html)
