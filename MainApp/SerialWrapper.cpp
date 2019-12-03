@@ -11,7 +11,7 @@ SerialWrapper::SerialWrapper(uint16_t com_num) {
     TCHAR com[len] = { '\0' };
     //constexpr auto len = sizeof(com) / sizeof(com[0]);
 
-    // WARNING: 0番以上のCOMポート名は _T("\\\\.\\COM10") としないと認識してくれないらしい。
+    // WARNING: 10番以上のCOMポート名は _T("\\\\.\\COM10") としないと認識してくれないらしい。
     // http://www.salutesound.com/~oss_winapi232.html
     _stprintf_s(com, len, _T("COM%d"), com_num);
 
