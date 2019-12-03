@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <string>
-#include "../SerialWrapper/serial_wrapper.h"
+#include <cstdint>
+#include "SerialWrapper.h"
 
 namespace sc = serial_communication;
 
@@ -43,7 +44,10 @@ void prompt() {
 
 int main()
 {
-    auto serial = sc::SerialWrapper(3);
+    const uint16_t comNum = 8;
+    std::cout << "COM番号" << comNum << "-" << comNum + 1 << "で通信します" << "\n";
+    std::cout << "\n";
+    auto serial = sc::SerialWrapper(comNum);
     serial.set_timeout(10, 100);
     serial.begin();
 

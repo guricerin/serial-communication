@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainApp", "MainApp\MainApp.vcxproj", "{969E4319-3E1A-4496-A179-380545ADE450}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SerialWrapper", "SerialWrapper\SerialWrapper.vcxproj", "{D583E858-B7EE-4CD5-9811-282B6CB49082}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,14 +21,6 @@ Global
 		{969E4319-3E1A-4496-A179-380545ADE450}.Release|x64.Build.0 = Release|x64
 		{969E4319-3E1A-4496-A179-380545ADE450}.Release|x86.ActiveCfg = Release|Win32
 		{969E4319-3E1A-4496-A179-380545ADE450}.Release|x86.Build.0 = Release|Win32
-		{D583E858-B7EE-4CD5-9811-282B6CB49082}.Debug|x64.ActiveCfg = Debug|x64
-		{D583E858-B7EE-4CD5-9811-282B6CB49082}.Debug|x64.Build.0 = Debug|x64
-		{D583E858-B7EE-4CD5-9811-282B6CB49082}.Debug|x86.ActiveCfg = Debug|Win32
-		{D583E858-B7EE-4CD5-9811-282B6CB49082}.Debug|x86.Build.0 = Debug|Win32
-		{D583E858-B7EE-4CD5-9811-282B6CB49082}.Release|x64.ActiveCfg = Release|x64
-		{D583E858-B7EE-4CD5-9811-282B6CB49082}.Release|x64.Build.0 = Release|x64
-		{D583E858-B7EE-4CD5-9811-282B6CB49082}.Release|x86.ActiveCfg = Release|Win32
-		{D583E858-B7EE-4CD5-9811-282B6CB49082}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

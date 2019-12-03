@@ -2,6 +2,10 @@
 
 Windowsでシリアル通信
 
+## 環境
+* Visual Studio 2019 Community
+* COM番号8と9で動作確認済み
+
 ## あれば便利なソフト
 * com0com
 * Tera Term or RLogin

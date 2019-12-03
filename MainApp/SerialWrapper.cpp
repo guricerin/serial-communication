@@ -1,9 +1,8 @@
-#include "pch.h"
 #include <tchar.h>
 #include <iostream>
 #include <cassert>
 #include <algorithm>
-#include "serial_wrapper.h"
+#include "SerialWrapper.h"
 
 using namespace serial_communication;
 
@@ -90,7 +89,7 @@ CommResult SerialWrapper::write(char byte)
 
 CommResult SerialWrapper::write_bytes(const char buf[], size_t len)
 {
-    DWORD expect_len = len; // 送信するbyte数
+    DWORD expect_len = static_cast<DWORD>(len); // 送信するbyte数
     DWORD actual_len; // 実際に送信したbyte数
 
     // ポートへ送信
